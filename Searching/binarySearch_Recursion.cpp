@@ -20,7 +20,7 @@ int binarySearchRecusive(int arr[], int low, int high, int searchElement)
 
 int main()
 {
-    int arr[] = {2, 4, 6, 2, 4, 5, 6, 3, 6};
+    int arr[] = {1, 2, 3, 4, 5, 6, 7, 6};
     int size = sizeof(arr) / sizeof(arr[0]);
     int searchElement = 3;
     int position = binarySearchRecusive(arr, 0, size - 1, searchElement);
