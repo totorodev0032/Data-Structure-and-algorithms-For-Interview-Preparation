@@ -23,6 +23,7 @@ int main()
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 6};
     int size = sizeof(arr) / sizeof(arr[0]);
     int searchElement = 3;
+    sort(arr, arr + size);
     int position = binarySearchRecusive(arr, 0, size - 1, searchElement);
     cout << position;
     return 0;

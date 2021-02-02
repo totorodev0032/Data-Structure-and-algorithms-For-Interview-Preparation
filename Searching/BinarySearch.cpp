@@ -27,7 +27,7 @@ int main()
     int arr[] = {1, 2, 3, 4, 5, 6, 7};
     int searchElement = 3;
     int size = sizeof(arr) / sizeof(arr[0]);
-
+    sort(arr, arr + size);
     int position = binarySearch(arr, searchElement, size);
     cout << position;
     return 0;
